@@ -1,0 +1,13 @@
+body {
+    background-color: #222125;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 0.5rem;
+    background-color: #f0732b;
+    border-radius: 8px;
+    color: #dddddd;
+}
