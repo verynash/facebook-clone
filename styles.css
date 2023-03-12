@@ -47,15 +47,35 @@ body {
     background-color: #696969;
     width: 30%;
     margin-right: auto;
+    position: sticky;
+    top:0;
+    height: max-content;
 }
 .content-center {
     background-color: #505050;
     width: 40%;
+    height: 200vh;
+}
+.stories-panel {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.stories {
+    border: 4px solid blue;
+    width: 90%;
+    height: 25vh;
+    max-height: 400px;
 }
 .content-right {
     background-color: #696969;
     width: 30%;
     margin-left: auto;
+    position: sticky;
+    top:0;
+    height: max-content;
 }
 li {
     list-style-type: none;
